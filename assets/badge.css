@@ -1,0 +1,49 @@
+.card-badge-left{
+    left: 0;
+  }
+  
+  .card-badge-right{
+    right: 0;
+  }
+  
+  .card-badge{
+    position: absolute;
+    top: 1.25rem;
+    z-index: 1;
+  }
+  
+  .card>*{
+  flex-shrink: 0;
+  }
+  
+  .badge-blue{
+    background-color: #0568fd;
+  }
+  
+  .badge-red{
+    background-color: red;
+  }
+  
+  .badge-green{
+    background-color: #52b788;
+  }
+  
+  .text-uppercase{
+    text-transform: uppercase!important;
+  }
+  
+  .badge{
+    display: inline-block;
+    padding: .5em 1em;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Mulish';
+    text-align: center;
+  }
+   .bg-color{
+     background-color: #0568fd;
+   }
+  
+   .bg-white{
+     background-color: #f2f2f2;
+   }

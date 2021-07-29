@@ -1,0 +1,174 @@
+.btn-labeled {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1 {
+	font-family: "Poppins", sans-serif;
+}
+.gambar{
+	z-index: -1;
+}
+.card-deals {
+	height: auto;
+	background-color: #0568fd;
+}
+.card-cover {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 240px;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+.checked {
+	color: orange;
+}
+.unchecked {
+	color: rgb(192, 192, 192);
+}
+
+.shop .btn {
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-outline-primary {
+	justify-content: center;
+	align-items: center;
+}
+
+#footer {
+	background-color: #f2f2f2;
+}
+
+.card-badge-left {
+	left: 0;
+}
+
+.card-badge-right {
+	right: 0;
+}
+
+.card-badge {
+	position: absolute;
+	top: 1.25rem;
+	z-index: 1;
+}
+
+.card > * {
+	flex-shrink: 0;
+}
+
+.badge-blue {
+	background-color: #0568fd;
+}
+
+.badge-red {
+	background-color: #fe696a;
+}
+
+.badge-green {
+	background-color: #52b788;
+}
+
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size: 12px;
+	font-weight: 500;
+	font-family: "Poppins";
+	text-align: center;
+}
+
+.bg-color {
+	background-color: #0568fd;
+}
+
+.bg-white {
+	background-color: #f2f2f2;
+}
+
+.bg-dark-2 {
+	background-color: #0c254b;
+}
+
+.btn-toggle-nav a {
+	display: inline-flex;
+	padding: 0.1875rem 0.5rem;
+	margin-top: 0.125rem;
+	margin-left: 1.25rem;
+	text-decoration: none;
+}
+.btn-toggle-nav a:hover {
+	background-color: #0568fd;
+	color: antiquewhite;
+}
+.card {
+	border: none !important;
+}
+
+.card-img-top {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+/* store text decoration dan text2 yang make a */
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a87507;
+}
+.store {
+	color: #f77f00;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	color: #fff;
+	background-color: #4992ff;
+	border-color: #4992ff;
+	box-shadow: none !important;
+}
+
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+	box-shadow: none !important;
+}
+.card-img-top {
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+}
+.tag{
+	font-size: 12px;
+	border: none;
+	font-family: "poppins";
+	border-radius: 5px;
+	color: rgb(133, 163, 219);
+}
+.linkarticle{
+  color: black;
+}
+.linkarticle::hover{
+  color: #0568fd;
+}
